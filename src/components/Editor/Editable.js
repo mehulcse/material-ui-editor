@@ -17,7 +17,6 @@ const Editable = ({ onChange, editorStyle, content }) => {
         style={editorStyle}
         contentEditable="true"
         dangerouslySetInnerHTML={{ __html: content }}
-
         onInput={emitChange}/>
     </Container>
   )
